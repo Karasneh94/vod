@@ -6,7 +6,11 @@ alert('Hello ' + userName + ', We have a gift for you at the end of the page ðŸŽ
 
 
 
-var typeOfShow = prompt(userName+' Do you prefer Movies or Series?');
+var typeOfShow = prompt(userName+', Do you prefer Movies or Series?');
+
+while(typeOfShow !== 'movies' && typeOfShow !== 'series'){
+    typeOfShow = prompt(userName +', Trust me this will keep going forever if you dont answer with either movies or series')
+}
 
 if (typeOfShow == 'movies' || typeOfShow == 'Movies')
 {
@@ -21,7 +25,9 @@ if (typeOfShow == 'movies' || typeOfShow == 'Movies')
     showList = '<h1>GO WATCH ANIME</h1>'
 }
 
-var txt;
+
+var feedback = prompt(userName+', How many random movie posters you wanna see?');
+
 var userColor = confirm('One last thing '+userName+' , Would you like to see a light background of this page?');
 if (userColor == true) {
     document.body.style.backgroundColor = "#f8f1f1";
@@ -30,6 +36,29 @@ if (userColor == true) {
 }
 
 document.write(showList);
+document.write('<br><hr>')
+
+var imgArray = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
+
+function getRandomImage(imgAr) {
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + 'images/movies/' + img +'" width=200px >';
+    document.write(imgStr);
+
+}
+
+for (var i = 0; i < feedback; i++) {
+    
+    getRandomImage(imgArray);
+    
+}
+
+
+
+
+
+
 
 
 
