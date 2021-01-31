@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #214252;
+
+}
+header h1{
+    
+    margin: 1px auto 20px auto;
+    
+    text-align: center;
+    color: #ccb9b9;
+  font-size: 5.625rem;
+  /* margin: 50px auto 0 auto; */
+  font-family: 'Sacramento', cursive;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+  margin: 40px auto 60px auto;
+
+  
+   
+}
+
+header nav ul li{
+    
+    display: inline-block;
+    margin: 0% 2% 0% 0%;
+    
+    
+}
+
+
+hr{
+    border: dotted #214252 12px;
+    border-bottom: none;
+    width: 8%;
+    margin: 50px auto;
+    
+    }
+
+    .intro{
+        width: 50%;
+        margin:  5% 25% ;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+      
+      }
+
+      h2 {
+        color: #ea728c;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      p{
+        line-height: 2;
+      }
+
+      .intro-img{
+        width:  60%;
+        float: left;
+        margin-right: 30px;
+      }
+
+
+
+      .btn {
+          margin-left: 10px;
+        background: #d9344a;
+        background-image: -webkit-linear-gradient(top, #d9344a, #605361);
+        background-image: -moz-linear-gradient(top, #d9344a, #605361);
+        background-image: -ms-linear-gradient(top, #d9344a, #605361);
+        background-image: -o-linear-gradient(top, #d9344a, #605361);
+        background-image: linear-gradient(to bottom, #d9344a, #605361);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 53px;
+        padding: 30px 30px 30px 30px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #c99393;
+        background-image: -webkit-linear-gradient(top, #c99393, #34798a);
+        background-image: -moz-linear-gradient(top, #c99393, #34798a);
+        background-image: -ms-linear-gradient(top, #c99393, #34798a);
+        background-image: -o-linear-gradient(top, #c99393, #34798a);
+        background-image: linear-gradient(to bottom, #c99393, #34798a);
+        text-decoration: none;
+      }
+
+
+.para {
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+
+}
+
+footer{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+.fee{
+    margin: 5% 30%;
+}
+
+.title{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    
+}
